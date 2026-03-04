@@ -11,9 +11,9 @@
 | Campo | Informação |
 | ------- | ----------- |
 | **Nome do Grupo** | *(preencher)* |
-| **Integrantes** | *(listar todos)* |
-| **E-mail de contato** | *(preencher)* |
-| **Comunidade parceira** | *(preencher)* |
+| **Integrantes** | Samuel Carbone Pereira Pinto |
+| **E-mail de contato** | samuelcppinto@gmail.com |
+| **Comunidade parceira** |  Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra |
 
 ---
 
