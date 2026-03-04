@@ -16,9 +16,9 @@
 | Campo | Informação |
 | ------- | ----------- |
 | Nome do Grupo | |
-| Integrantes | |
-| E-mail de contato | |
-| Telefone de contato | |
+| Integrantes | Samuel Carbone Pereira Pinto|
+| E-mail de contato | sameulcppinto@gmail.com |
+| Telefone de contato | (27)99751-5313 |
 
 ## 2. Dados da Comunidade / Instituição Parceira
 
