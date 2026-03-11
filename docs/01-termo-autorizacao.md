@@ -2,7 +2,7 @@
 
 > **Status:**  (adicione um "x" para completar cada nível)
 
-- [x] Visualizado
+- [ ] Visualizado
 - [ ] Pendente
 - [ ] Enviado ao professor
 - [ ] Aprovado  
@@ -24,11 +24,11 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome da instituição | |
-| Endereço | |
+| Nome da instituição | Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra|
+| Endereço | R. Mario Xandó de Oliveira, 2 - São Geraldo, Poços de Caldas |
 | Nome do responsável | |
 | Cargo/Função | |
-| Telefone ou e-mail da instituição | |
+| Telefone ou e-mail da instituição |(35) 3697-2126 |
 
 > **Nota:** O professor responsável pela disciplina poderá entrar em contato com a comunidade/instituição acima indicada para fins de validação das informações, acompanhamento do desenvolvimento, ajustes no planejamento e alinhamentos necessários à entrega do software.
 
