@@ -1,7 +1,7 @@
 # 06 — Registro de Contatos com a Comunidade
 
 > **Grupo:** *(preencher)*  
-> **Comunidade:** *(preencher)*
+> **Comunidade:** CMAEE Dr. Tarso de Coimbra
 
 ---
 
@@ -16,11 +16,11 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | |
-| Forma de contato | *(Presencial / Online / E-mail / Telefone / WhatsApp)* |
-| Participantes do grupo | |
-| Participantes da comunidade | |
-| Objetivo do contato | |
+| Data | 06/03/2026|
+| Forma de contato | Online |
+| Participantes do grupo | Asahfe Shemuel Melo Sabino|
+| Participantes da comunidade | a diretora, professora Fabiana, do CMAEE Dr. Tarso de Coimbra|
+| Objetivo do contato | receber demandas da comunidade |
 
 **Resumo do que foi tratado:**
 (Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
