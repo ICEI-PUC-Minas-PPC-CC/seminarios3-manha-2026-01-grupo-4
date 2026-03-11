@@ -55,7 +55,7 @@
 
 | Data | Forma de contato | Resumo do que foi tratado |
 | ------ | ----------------- | -------------------------- |
-| | | |
+| 06/03/26 | Online | |
 | | | |
 | | | |
 
