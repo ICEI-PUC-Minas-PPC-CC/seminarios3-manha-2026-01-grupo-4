@@ -16,9 +16,9 @@
 | Campo | Informação |
 | ------- | ----------- |
 | Nome do Grupo | |
-| Integrantes | Samuel Carbone Pereira Pinto, Diogo Koch Felippe|
-| E-mail de contato | sameulcppinto@gmail.com, diogokf7@gmail.com |
-| Telefone de contato | (27)99751-5313, (19)99963-7923 |
+| Integrantes | Samuel Carbone Pereira Pinto, Diogo Koch Felippe, Asahfe shemuel Melo Sabino|
+| E-mail de contato | sameulcppinto@gmail.com, diogokf7@gmail.com, asahfe7@gmail.com |
+| Telefone de contato | (27)99751-5313, (19)99963-7923, (35)99989-3235 |
 
 ## 2. Dados da Comunidade / Instituição Parceira
 
@@ -55,7 +55,7 @@
 
 | Data | Forma de contato | Resumo do que foi tratado |
 | ------ | ----------------- | -------------------------- |
-| 06/03/26 | Online | |
+| 06/03/26 | Online | Recebimento das demandas, sendo essas, jogos para o aprendizado e  site da comunidade|
 | | | |
 | | | |
 
