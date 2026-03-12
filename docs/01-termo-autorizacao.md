@@ -36,16 +36,16 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Título/Tema da aplicação | |
-| Público-alvo | |
-| Nº estimado de usuários | |
-| Faixa etária do público | |
-| Tecnologias previstas | |
-| Hospedagem prevista | |
+| Título/Tema da aplicação | Libraspédia|
+| Público-alvo |  Individuos com deficiencia auditiva e ,também, pessoas que desejam aprender libras |
+| Nº estimado de usuários | Numa faixa de 25 pra 75 |
+| Faixa etária do público | Entre 8 a 14 e entre 60 a 80, com possibilidade de idades diversas |
+| Tecnologias previstas | Tecnologias previstas: Smartphone ou computador, contanto que tenha acesso a internet |
+| Hospedagem prevista | Internet |
 
 ### Breve descrição da aplicação e sua finalidade
 
-(Descreva aqui o software que será desenvolvido, seus objetivos e como atende às demandas da comunidade.)
+O projeto se baseia em um site que sirvirá no auxilio do aprendizado da linguagem de libras, principalmente, em contextos que se mostram mais presentes no dia-a-dia daqueles com deficiência auditiva. Com isso, aqueles que apresentão, ou não, tal deficiência consiguirão lidar com uma barreira comunicacional.
 
 ## 4. Levantamento de Demandas da Comunidade
 
@@ -63,13 +63,13 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data prevista para entrega | |
-| Horário de início | |
-| Horário de término | |
-| Local de realização | |
-| Data alternativa | |
+| Data prevista para entrega | 26/06 |
+| Horário de início | 13:30 |
+| Horário de término | Numa faixa de 15:00 a 16:30 |
+| Local de realização | PUC Minas, campus Poços de Caldas |
+| Data alternativa | 18/06  |
 
-> **Obs.:** A entrega deve ser, preferencialmente, presencial. O agendamento está sujeito à confirmação pelo professor responsável.
+> **Obs.:** A entrega deve ser, preferencialmente, presencial. O agendamento está sujeito à confirmação pelo professor responsável. Além disso, as datas podem sofrer alteração.
 
 ## 6. Autorização
 
