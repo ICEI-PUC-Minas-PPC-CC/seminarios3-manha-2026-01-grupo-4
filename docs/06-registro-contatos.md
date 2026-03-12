@@ -1,6 +1,6 @@
 # 06 — Registro de Contatos com a Comunidade
 
-> **Grupo:** *(preencher)*  
+> **Grupo:** Libraspédia  
 > **Comunidade:** CMAEE Dr. Tarso de Coimbra
 
 ---
@@ -20,7 +20,7 @@
 | Forma de contato | Online |
 | Participantes do grupo | Asahfe Shemuel Melo Sabino|
 | Participantes da comunidade | a diretora, professora Fabiana, do CMAEE Dr. Tarso de Coimbra|
-| Objetivo do contato | receber demandas da comunidade |
+| Objetivo do contato | Receber demandas da comunidade |
 
 **Resumo do que foi tratado:**
 (Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
@@ -70,6 +70,5 @@
 
 | # | Demanda | Prioridade | Como será atendida no software |
 | --- | --------- | :----------: | ------------------------------- |
-| 1 | | *(Alta/Média/Baixa)* | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Facilitar aprendizado de libras| Alta | O site apresentará palavras e/ou frases do dia a dia ,tanto em libras como no português, juntamente de GIFs mostrando como fazer os sinais referentes aos termos apresentados  |
+| 2 | Aprendizado do uso da tecnologia, como internet | Média| Os usuários deverão utilizar a internet para acessar o site projetado pelo grupo |
