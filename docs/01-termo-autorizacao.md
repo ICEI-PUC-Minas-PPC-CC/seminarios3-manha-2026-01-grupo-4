@@ -16,9 +16,9 @@
 | Campo | Informação |
 | ------- | ----------- |
 | Nome do Grupo | |
-| Integrantes | Samuel Carbone Pereira Pinto|
-| E-mail de contato | sameulcppinto@gmail.com |
-| Telefone de contato | (27)99751-5313 |
+| Integrantes | Samuel Carbone Pereira Pinto, Diogo Koch Felippe|
+| E-mail de contato | sameulcppinto@gmail.com, diogokf7@gmail.com |
+| Telefone de contato | (27)99751-5313, (19)99963-7923 |
 
 ## 2. Dados da Comunidade / Instituição Parceira
 
