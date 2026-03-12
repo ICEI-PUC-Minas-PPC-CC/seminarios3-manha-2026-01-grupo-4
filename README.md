@@ -11,8 +11,9 @@
 | Campo | Informação |
 | ------- | ----------- |
 | **Nome do Grupo** | *(preencher)* |
-| **Integrantes** | Samuel Carbone Pereira Pinto |
-| **E-mail de contato** | samuelcppinto@gmail.com |
+| **Integrantes** | Samuel Carbone Pereira Pinto, Vinicius Eduardo Brasiliano dos Santos |
+| **E-mail de contato** | samuelcppinto@gmail.com   
+viniciuseduardo.santos05@gmail.com|
 | **Comunidade parceira** |  Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra |
 
 ---
