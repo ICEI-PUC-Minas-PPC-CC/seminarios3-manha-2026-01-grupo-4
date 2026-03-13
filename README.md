@@ -11,7 +11,7 @@
 | Campo | Informação |
 | ------- | ----------- |
 | **Nome do Grupo** | Libraspédia |
-| **Integrantes** | Samuel Carbone Pereira Pinto, Vinicius Eduardo Brasiliano dos Santos, Diogo Koch Felippe, Asahfe shemuel Melo Sabino |
+| **Integrantes** | Samuel Carbone Pereira Pinto, Vinicius Eduardo Brasiliano dos Santos, Diogo Koch Felippe, Asahfe Shemuel Melo Sabino, Igor Augusto Borba Costa |
 | **E-mail de contato** | samuelcppinto@gmail.com,   viniciuseduardo.santos05@gmail.com,   diogokf7@gmail.com, asahfe7@gmail.com |
 | **Comunidade parceira** |  Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra |
 
