@@ -16,7 +16,7 @@
 | Campo | Informação |
 | ------- | ----------- |
 | Nome do Grupo | |
-| Integrantes | Samuel Carbone Pereira Pinto, Diogo Koch Felippe, Asahfe shemuel Melo Sabino, Vinicius Eduardo Brasiliano dos Santos|
+| Integrantes | Samuel Carbone Pereira Pinto, Diogo Koch Felippe, Asahfe shemuel Melo Sabino, Vinicius Eduardo Brasiliano dos Santos, Igor Augusto Borba Costa|
 | E-mail de contato | sameulcppinto@gmail.com, diogokf7@gmail.com, asahfe7@gmail.com, viniciuseduardo.santos05@gmail.com |
 | Telefone de contato | (27)99751-5313, (19)99963-7923, (35)99989-3235, (19)99259-5900 |
 
