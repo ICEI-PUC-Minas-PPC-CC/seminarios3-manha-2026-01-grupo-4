@@ -1,8 +1,8 @@
 # 02 — Documento de Requisitos do Software
 
-> **Grupo:** *(Libraspédia)*  
-> **Aplicação:** *(Site)*  
-> **Comunidade:** *(Tarso de Coimbra)*
+> **Grupo:** *( Libraspédia )*  
+> **Aplicação:** *( Site )*  
+> **Comunidade:** *( Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra )*
 
 ---
 
