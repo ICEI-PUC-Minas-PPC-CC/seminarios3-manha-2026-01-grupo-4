@@ -51,11 +51,9 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 
 | Componente | Tecnologia |
 | ----------- | ----------- |
-| Front-end | |
-| Back-end (se houver) | |
-| Banco de dados (se houver) | |
-| Hospedagem | |
-| Outras ferramentas | |
+| Front-end | HTML, CSS, Java Script |
+| Hospedagem | Google |
+
 
 ## 7. Protótipo / Wireframes
 
