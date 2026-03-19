@@ -37,8 +37,6 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 | RNF01 | A aplicação deve ser acessível via navegador web | Acessibilidade |
 | RNF02 | A interface deve ser simples e intuitiva | Usabilidade |
 | RNF03 | A aplicação deve funcionar em dispositivos móveis | Compatibilidade |
-| RNF04 | | |
-| RNF05 | | |
 
 ## 5. Requisitos de Acessibilidade
 
