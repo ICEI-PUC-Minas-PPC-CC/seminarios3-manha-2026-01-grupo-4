@@ -45,7 +45,7 @@
 
 ### Breve descrição da aplicação e sua finalidade
 
-O projeto se baseia em um site que sirvirá no auxilio do aprendizado da linguagem de libras, principalmente, em contextos que se mostram mais presentes no dia-a-dia daqueles com deficiência auditiva. Com isso, aqueles que apresentão, ou não, tal deficiência consiguirão lidar com uma barreira comunicacional.
+O projeto se baseia em um site que servirá no auxílio do aprendizado da linguagem de libras, principalmente, em contextos que se mostram mais presentes no dia-a-dia daqueles com deficiência auditiva. Com isso, aqueles que apresentam, ou não, tal deficiência conseguirão lidar com uma barreira comunicacional.
 
 ## 4. Levantamento de Demandas da Comunidade
 
