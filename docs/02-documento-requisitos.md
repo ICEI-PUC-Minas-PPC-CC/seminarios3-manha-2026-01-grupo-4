@@ -14,10 +14,10 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 
 | Campo | Informação |
 | ------- | ----------- |
-| Perfil dos usuários | |
+| Perfil dos usuários | Usuários com deficiência auditiva |
 | Faixa etária | Entre 8 a 14 e entre 60 e 80 anos |
-| Necessidades de acessibilidade | |
-| Nível de familiaridade com tecnologia | |
+| Necessidades de acessibilidade | deficiência auditiva |
+| Nível de familiaridade com tecnologia | baixo |
 
 > **Lembrete (Tarso de Coimbra):** Os usuários podem ter deficiência auditiva/surdez. A interface deve ser **visual, intuitiva e de baixa complexidade**. Priorize elementos visuais (imagens, ícones, cores) sobre texto extenso.
 
