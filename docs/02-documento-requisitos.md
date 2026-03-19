@@ -43,13 +43,12 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 
 ## 5. Requisitos de Acessibilidade
 
-- [ ] Interface predominantemente visual (ícones, cores, imagens)
-- [ ] Textos curtos e objetivos
-- [ ] Botões grandes e identificáveis
-- [ ] Contraste adequado de cores
-- [ ] Compatível com Libras (se aplicável: vídeos, sinais, glossário)
-- [ ] Sem dependência de áudio para funcionalidades essenciais
-- [ ] Outro: *(especificar)*
+- [x] Interface predominantemente visual (ícones, cores, imagens)
+- [x] Textos curtos e objetivos
+- [x] Botões grandes e identificáveis
+- [x] Contraste adequado de cores
+- [x] Compatível com Libras (se aplicável: vídeos, sinais, glossário)
+- [x] Sem dependência de áudio para funcionalidades essenciais
 
 ## 6. Tecnologias Escolhidas
 
