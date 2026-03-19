@@ -57,7 +57,7 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 
 ## 7. Protótipo / Wireframes
 
-(Inclua esboços das telas principais ou links para protótipos — mesmo rascunhos simples em papel são válidos. Salvem imagens dos wireframes em `evidencias/prints/`.)
+Wireframe feito no Figma: https://www.figma.com/make/Zfwm7OjCkNkK9Zt5B0eUqF/Librasp%C3%A9dia-Wireframe-Design?t=u5k6GM8d7FsS9oJQ-20&fullscreen=1
 
 ## 8. Escopo Mínimo Viável (MVP)
 
