@@ -1,8 +1,8 @@
 # 02 — Documento de Requisitos do Software
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*  
-> **Comunidade:** *(preencher)*
+> **Grupo:** *(Libraspédia)*  
+> **Aplicação:** *(Site)*  
+> **Comunidade:** *(Tarso de Coimbra)*
 
 ---
 
