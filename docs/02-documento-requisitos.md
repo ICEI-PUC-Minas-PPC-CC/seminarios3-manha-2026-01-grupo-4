@@ -8,7 +8,7 @@
 
 ## 1. Visão Geral
 
-(Descreva em poucas frases o que é a aplicação, para quem ela é destinada e qual problema ela resolve.)
+A aplicação é um site que traduz palavras e expressões simples para Libras. Ela é destinada tanto a pessoas com deficiência auditiva quanto a quem deseja aprender a língua de sinais. Seu objetivo é facilitar a comunicação e promover acessibilidade, ajudando a reduzir barreiras entre pessoas surdas e ouvintes.
 
 ## 2. Público-Alvo
 
