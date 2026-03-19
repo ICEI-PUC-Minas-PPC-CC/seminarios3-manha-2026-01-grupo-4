@@ -63,11 +63,11 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 
 (Quais funcionalidades compõem a versão mínima que pode ser entregue à comunidade?)
 
-- [ ] *(Funcionalidade 1)*
-- [ ] *(Funcionalidade 2)*
-- [ ] *(Funcionalidade 3)*
+- [ ] *Demonstração visual do sinal de libras*
+- [ ] *Explicação por escrito do sinal*
+- [ ] *Lista de expressões uteis*
 
 ## 9. Funcionalidades Desejáveis (se houver tempo)
 
-- *(Funcionalidade extra 1)*
-- *(Funcionalidade extra 2)*
+- *Sistema de busca*
+- *Explicação da expreção*
