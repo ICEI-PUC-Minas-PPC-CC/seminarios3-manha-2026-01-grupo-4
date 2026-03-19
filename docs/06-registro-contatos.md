@@ -23,10 +23,10 @@
 | Objetivo do contato | Receber demandas da comunidade |
 
 **Resumo do que foi tratado:**
-(Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
+Na reunião foi mostrado tipos de aplicação que são uteis, tanto para aprendizado quanto para questões cotidianas, para aqueles que apresentam deficiência auditiva. Portanto, o grupo decidiu produzir um software que ajude na comunicação com pessoas que possuem tal deficiência. Um software, site, que apresenta palavras e/ou expressões tanto no português como em Líbras, em formato de GIF.
 
 **Encaminhamentos:**
-(O que ficou combinado para a próxima interação?)
+Inicialmente, não houve nenhum combinado para a próxima interação.
 
 ---
 
