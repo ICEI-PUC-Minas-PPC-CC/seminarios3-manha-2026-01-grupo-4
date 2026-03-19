@@ -9,11 +9,11 @@
 
 | Integrante | Responsabilidades principais |
 | ----------- | ------------------------------ |
-| Samuel Carbone Pereira Pinto | |
-| Vinicius Eduardo Brasiliano dos Santos | |
-| Diogo Koch Felippe | |
-| Asahfe Shemuel Melo Sabino | |
-| Igor Augusto Borba Costa | |
+| Samuel Carbone Pereira Pinto | Lider |
+| Vinicius Eduardo Brasiliano dos Santos | Auxiliar do git |
+| Diogo Koch Felippe | Auxiliar do site e do git |
+| Asahfe Shemuel Melo Sabino | Auxiliar do site e do git |
+| Igor Augusto Borba Costa | Auxiliar do git |
 
 ## 2. Cronograma de Desenvolvimento
 
