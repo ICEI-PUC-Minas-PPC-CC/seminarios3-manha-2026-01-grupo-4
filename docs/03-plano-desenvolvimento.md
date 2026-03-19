@@ -42,11 +42,11 @@
 | ------- | :------------: | ---------------------- |
 | Demandas levantadas | 06/03 | Registro de contato com a comunidade |
 | Requisitos definidos | 21/03 | Documento `02-documento-requisitos.md` preenchido |
-| Protótipo aprovado | | Wireframes validados com a comunidade |
-| MVP funcional | | Funcionalidades mínimas operacionais |
-| Deploy realizado | | Aplicação acessível pela Internet |
-| Entrega presencial | | Software apresentado à comunidade |
-| Relatórios APC | | Relatório e autoavaliação preenchidos |
+| Protótipo aprovado | 21/03 | Wireframes validados com a comunidade |
+| MVP funcional | 16/05 | Funcionalidades mínimas operacionais |
+| Deploy realizado | 16/05 | Aplicação acessível pela Internet |
+| Entrega presencial | 06/06 | Software apresentado à comunidade |
+| Relatórios APC | 13/06 | Relatório e autoavaliação preenchidos |
 
 ## 4. Estratégia de Desenvolvimento
 
