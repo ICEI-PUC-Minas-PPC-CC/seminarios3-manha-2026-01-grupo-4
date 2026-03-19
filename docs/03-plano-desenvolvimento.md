@@ -75,6 +75,6 @@
 
 | Canal | Finalidade |
 | ------- | ----------- |
-| *(WhatsApp / Discord / Teams)* | Comunicação diária |
-| *(GitHub Issues / Projects)* | Controle de tarefas |
-| *(Reuniões semanais)* | Alinhamento do grupo |
+| *WhatsApp / Discord* | Comunicação diária |
+| *GitHub Issues* | Controle de tarefas |
+| *Reuniões semanais via discord* | Alinhamento do grupo |
