@@ -25,11 +25,10 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 
 | ID | Requisito | Prioridade | Origem da demanda |
 | ---- | ---------- | :----------: | ------------------ |
-| RF01 | | *(Alta/Média/Baixa)* | *(Reunião com a comunidade em DD/MM)* |
-| RF02 | | | |
-| RF03 | | | |
-| RF04 | | | |
-| RF05 | | | |
+| RF01 | Gif | Alta | Reunião com o grupo em 19/03 |
+| RF02 | Lista de expressões | Alta | Reunião com o grupo em 19/03 |
+| RF03 | Sistema de busca | Medio | Reunião com o grupo em 19/03 |
+| RF04 | Explicação da expressão | baixa | Reunião com o grupo em 19/03 |
 
 ## 4. Requisitos Não Funcionais
 
