@@ -19,7 +19,7 @@
 
 ## 🎯 Software a Ser Desenvolvido
 
-O projeto se baseia em um site que sirvirá no auxilio do aprendizado da linguagem de libras, principalmente, em contextos que se mostram mais presentes no dia-a-dia daqueles com deficiência auditiva. O site apresentará palavras e/ou frases juntamente á um GIF de como fazer tais termos apresentados. 
+O projeto se baseia em um site que servirá no auxilio do aprendizado da linguagem de libras, principalmente, em contextos que se mostram mais presentes no dia-a-dia daqueles com deficiência auditiva. O site apresentará palavras e/ou frases juntamente á um GIF de como fazer tais termos apresentados. 
 ---
 
 ## 📁 Estrutura do Repositório
