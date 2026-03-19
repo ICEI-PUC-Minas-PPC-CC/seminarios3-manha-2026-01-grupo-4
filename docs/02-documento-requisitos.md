@@ -15,7 +15,7 @@ A aplicação é um site que traduz palavras e expressões simples para Libras. 
 | Campo | Informação |
 | ------- | ----------- |
 | Perfil dos usuários | |
-| Faixa etária | entre 8 a 14 e entre 60 e 80 anos |
+| Faixa etária | Entre 8 a 14 e entre 60 e 80 anos |
 | Necessidades de acessibilidade | |
 | Nível de familiaridade com tecnologia | |
 
