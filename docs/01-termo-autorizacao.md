@@ -37,10 +37,10 @@
 | Campo | Informação |
 | ------- | ----------- |
 | Título/Tema da aplicação | Libraspédia|
-| Público-alvo |  Individuos com deficiencia auditiva e ,também, pessoas que desejam aprender libras |
+| Público-alvo |  Indivíduos com deficiência auditiva e, também, pessoas que desejam aprender libras |
 | Nº estimado de usuários | Numa faixa de 25 pra 75 |
 | Faixa etária do público | Entre 8 a 14 e entre 60 a 80, com possibilidade de idades diversas |
-| Tecnologias previstas | Tecnologias previstas: Para os usuários, smartphone ou computador, contanto que tenha acesso a internet. Para o desenvolvimento, liínguagens HTML, CSS e JavaScript |
+| Tecnologias previstas | Tecnologias previstas: Para os usuários, smartphone ou computador, contanto que tenha acesso a internet. Para o desenvolvimento, línguagens HTML, CSS e JavaScript |
 | Hospedagem prevista | Internet |
 
 ### Breve descrição da aplicação e sua finalidade
