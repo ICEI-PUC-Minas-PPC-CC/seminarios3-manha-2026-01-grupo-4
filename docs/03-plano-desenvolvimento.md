@@ -40,8 +40,8 @@
 
 | Marco | Data prevista | Critério de conclusão |
 | ------- | :------------: | ---------------------- |
-| Demandas levantadas | | Registro de contato com a comunidade |
-| Requisitos definidos | | Documento `02-documento-requisitos.md` preenchido |
+| Demandas levantadas | 06/03 | Registro de contato com a comunidade |
+| Requisitos definidos | 21/03 | Documento `02-documento-requisitos.md` preenchido |
 | Protótipo aprovado | | Wireframes validados com a comunidade |
 | MVP funcional | | Funcionalidades mínimas operacionais |
 | Deploy realizado | | Aplicação acessível pela Internet |
