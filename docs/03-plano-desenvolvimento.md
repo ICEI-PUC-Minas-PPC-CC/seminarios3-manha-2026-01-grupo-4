@@ -52,29 +52,29 @@
 
 ### Ambiente de desenvolvimento
 
-(Descreva o setup: editor de código, controle de versão, branches, etc.)
+setup: VS code, Ultima versão, Github, etc.
 
 ### Estratégia de testes
 
-(Como o grupo vai testar a aplicação antes da entrega?)
+O grupo vai testar por meio do proprio Vs code, aonde vamos testar por meio de local host.
 
 ### Estratégia de deploy
 
-(Onde e como a aplicação será hospedada?)
+Inicialmente Vamos fazer por meio do local host, mas futuramente pensamos em hospedar no google com um domínio.
 
 ## 5. Riscos e Mitigações
 
 | Risco | Probabilidade | Impacto | Mitigação |
 | ------- | :------------: | :-------: | ---------- |
-| Atraso no cronograma | | | |
-| Dificuldade técnica inesperada | | | |
-| Comunidade indisponível para reuniões | | | |
-| Problemas de infraestrutura no dia da entrega | | | |
+| Atraso no cronograma | Baixo | Dependente | Priorizar objetivos |
+| Dificuldade técnica inesperada | Media | Baixa | Depende da dificuldade |
+| Comunidade indisponível para reuniões | Alta | Muito alta | Comunucação por mensagens ou fora de dias de trabalho |
+| Problemas de infraestrutura no dia da entrega | Baixa | Alta | Uso de qualquer dispositivo conectado a internet |
 
 ## 6. Comunicação do Grupo
 
 | Canal | Finalidade |
 | ------- | ----------- |
-| *WhatsApp / Discord* | Comunicação diária |
+| *WhatsApp / Discord* | Comunicação semanal |
 | *GitHub Issues* | Controle de tarefas |
 | *Reuniões semanais via discord* | Alinhamento do grupo |
