@@ -1,6 +1,7 @@
 # 05 — Diário de Bordo do Grupo
 
 > **Grupo:** Samuel , Diogo, Vinicius, Igor e Asahfe 
+
 > **Aplicação:** Libraspédia
 
 ---
@@ -11,19 +12,19 @@
 
 ## Registro de Atividades
 
-### Semana 01 — ___/___/___ a ___/___/___
+### Semana 01 — _02__/_03__/_26__ a _12__/_03__/_26__
 
 **O que foi feito:**
-*(Descrever as atividades realizadas nesta semana: desenvolvimento, reuniões, testes, etc.)*
+Formação do grupo, contato inicial com os destinatários do projeto (Tarco de Coimbra) para obter as demandas da cominudade , determinação da ideia do projeto, criação e preenchimento inicial do repositório do Github
 
 **Quem participou:**
-*(Listar integrantes envolvidos.)*
+Asahfe, Samuel, Igor, Vinicius e Diogo
 
 **Decisões técnicas tomadas:**
-*(Alguma decisão relevante sobre tecnologia, escopo, design, etc.?)*
+A aplicação será um site que terá GIFs das palavras/termos em libras, que será colocado na internet e que será criado via HTML, CSS e JavaScript.
 
 **Próximos passos:**
-*(O que precisa ser feito na próxima semana?)*
+Etapa 2 do desenvolvimento - Requisitos--> Documento de requisitos elaborado (02-documento-requisitos.md), Protótipo/wireframes criados, Protótipo validado com a comunidade/professor, Tecnologias definidas e Plano de desenvolvimento elaborado (03-plano-desenvolvimento.md)
 
 ---
 
