@@ -32,7 +32,6 @@ npm start
 
 ```
 src/
-├── README.md
 ├── contatos.html
 ├── dados.js
 ├── index.html
