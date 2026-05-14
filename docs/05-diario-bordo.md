@@ -1,7 +1,7 @@
 # 05 — Diário de Bordo do Grupo
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*
+> **Grupo:** Samuel , Diogo, Vinicius, Igor e Asahfe 
+> **Aplicação:** Libraspédia
 
 ---
 
