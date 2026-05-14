@@ -32,10 +32,13 @@ npm start
 
 ```
 src/
+├── README.md
+├── contatos.html
+├── dados.js
 ├── index.html
-├── style.css
-├── script.js
-└── ...
+├── lista.html
+└── style.css
+
 ```
 
 *(Adapte conforme as tecnologias escolhidas pelo grupo.)*
