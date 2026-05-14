@@ -19,11 +19,11 @@
 
 | Semana | Período (dd/MM à dd/MM) | Atividade planejada | Responsável | Status |
 | :------: | --------- | -------------------- | -----------: | :------: |
-| 1 | 18/02 à 25/02 | Formação do grupo | Todos | iniciado |
-| 2 | 06/03 | Contato com comunidade e Levantamento de demandas | | iniciado |
-| 3 | 19/03 | Definição de requisitos | | iniciado |
-| 4 | | Prototipação / wireframes | | não iniciado |
-| 5 | | Desenvolvimento — Sprint 1 | | não iniciado |
+| 1 | 18/02 à 25/02 | Formação do grupo | Todos | feito |
+| 2 | 06/03 | Contato com comunidade e Levantamento de demandas | Asahfe | feito |
+| 3 | 19/03 | Definição de requisitos | Todos| feito |
+| 4 | 25/03| Prototipação / wireframes | Samuel| feito |
+| 5 | 13/05| Desenvolvimento — Sprint 1 | Todos | iniciado |
 | 6 | | Desenvolvimento — Sprint 1 | | não iniciado |
 | 7 | | Validação com a comunidade | | não iniciado |
 | 8 | | Desenvolvimento — Sprint 2 | | não iniciado |
