@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Libraspédia — Dicionário Colaborativo de LIBRAS</title>
+  <meta name="description" content="Libraspédia é uma enciclopédia digital colaborativa dedicada à Língua Brasileira de Sinais. Aprenda expressões, sinais e gestos de forma clara e acessível." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║          NAVBAR              ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <nav class="navbar">
+    <a class="nav-logo" href="index.html">
+      <span class="star">⭐</span> Libraspédia
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="lista.html">Lista</a></li>
+      <li><a href="contatos.html">Contatos</a></li>
+    </ul>
+  </nav>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║            HERO              ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <header class="hero">
+    <div class="hero-icon">⭐</div>
+    <h1>Libraspédia</h1>
+    <p>O seu dicionário colaborativo de expressões em LIBRAS — acessível, visual e feito para todos.</p>
+    <a href="lista.html" class="btn-primary">Entre na Lista</a>
+  </header>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║         O QUE É?             ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="sobre-bg">
+    <div class="secao">
+      <h2 class="secao-titulo">O que é?</h2>
+      <div class="secao-linha"></div>
+      <p class="secao-texto">
+        A <strong>Libraspédia</strong> é uma enciclopédia digital colaborativa dedicada à
+        <strong>Língua Brasileira de Sinais (LIBRAS)</strong>. Nosso objetivo é catalogar
+        expressões, sinais e gestos de forma clara e acessível, promovendo a inclusão e o
+        aprendizado da língua para toda a comunidade — ouvintes, surdos e intérpretes.
+      </p>
+      <p class="secao-texto">
+        Aqui você encontra descrições detalhadas, contextos de uso e referências visuais das
+        expressões em LIBRAS, organizadas de forma intuitiva e fácil de navegar.
+      </p>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║       POR QUE USAR?          ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="porqueUsar-bg">
+    <h2>Por que usar a Libraspédia?</h2>
+    <div class="cards-grid">
+      <div class="feature-card">
+        <div class="icon-circle">🤟</div>
+        <h3>Expressões em LIBRAS</h3>
+        <p>Catálogo organizado com expressões, contextos de uso e descrições detalhadas dos sinais.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-circle">📖</div>
+        <h3>Fácil de Aprender</h3>
+        <p>Interface simples e intuitiva, pensada para que qualquer pessoa possa aprender LIBRAS.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-circle">👥</div>
+        <h3>Inclusão para Todos</h3>
+        <p>Desenvolvido para surdos, ouvintes e intérpretes que desejam se comunicar melhor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║       PRONTO PARA EXPLORAR   ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="cta-section">
+    <span class="star">⭐</span>
+    <h2>Pronto para explorar?</h2>
+    <p>Acesse nossa lista completa de expressões em LIBRAS e comece sua jornada de aprendizado agora mesmo.</p>
+    <a href="lista.html" class="btn-primary">Entre na Lista</a>
+  </section>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║           FOOTER             ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">⭐ Libraspédia</div>
+      <div class="footer-contatos">
+        <h4>Contatos</h4>
+        <p>contato@libraspedia.com.br</p>
+        <p>Instagram: @libraspedia</p>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Libraspédia · Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    // Menu mobile
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('aberto');
+    });
+  </script>
+
+</body>
+</html>

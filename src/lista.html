@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Expressões — Libraspédia</title>
+  <meta name="description" content="Explore nossa lista completa de expressões em LIBRAS com GIFs, descrições e contextos de uso." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║          NAVBAR              ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <nav class="navbar">
+    <a class="nav-logo" href="index.html">
+      <span class="star">⭐</span> Libraspédia
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="lista.html" class="active">Lista</a></li>
+      <li><a href="contatos.html">Contatos</a></li>
+    </ul>
+  </nav>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║          HERO LISTA          ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <header class="lista-hero">
+    <h1>Lista de Expressões</h1>
+    <p>Clique em qualquer expressão para ver o GIF e a explicação completa</p>
+    <div class="search-wrap">
+      <input
+        type="text"
+        id="campoBusca"
+        class="search-input"
+        placeholder="Pesquisar expressão ou palavra..."
+        autocomplete="off"
+      />
+      <span class="search-icon">🔍</span>
+    </div>
+  </header>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║         FILTROS              ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <div class="filtros-area">
+    <div class="filtros-scroll" id="filtros"></div>
+  </div>
+
+  <p class="contagem-resultados" id="contagem"></p>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║       GRID DE EXPRESSÕES     ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <main>
+    <div class="expressoes-grid" id="gridExpressoes"></div>
+    <div class="sem-resultados" id="semResultados">
+      <div class="emoji">🤷</div>
+      <p>Nenhuma expressão encontrada.</p>
+      <p style="font-size:0.88rem;margin-top:4px;">Tente outra palavra ou categoria.</p>
+    </div>
+  </main>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║            MODAL             ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+    <div class="modal-box">
+      <div class="modal-gif-area" id="modalGifArea">
+        <button class="modal-fechar" id="modalFechar" aria-label="Fechar">✕</button>
+        <div class="modal-gif-placeholder" id="modalGifPlaceholder"></div>
+      </div>
+      <div class="modal-conteudo">
+        <p class="modal-categoria" id="modalCategoria"></p>
+        <h2 class="modal-titulo" id="modalTitulo"></h2>
+        <div class="modal-info-bloco">
+          <p class="modal-info-label">Descrição</p>
+          <p class="modal-info-texto" id="modalDescricao"></p>
+        </div>
+        <div class="modal-info-bloco">
+          <p class="modal-info-label">Quando usar</p>
+          <p class="modal-info-texto" id="modalContexto"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║           FOOTER             ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">⭐ Libraspédia</div>
+      <div class="footer-contatos">
+        <h4>Contatos</h4>
+        <p>contato@libraspedia.com.br</p>
+        <p>Instagram: @libraspedia</p>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Libraspédia · Todos os direitos reservados</p>
+  </footer>
+
+  <!-- ── Dados ── -->
+  <script src="dados.js"></script>
+
+  <!-- ── Lógica da Lista ── -->
+  <script>
+    // ─── Estado ───────────────────────────────────────
+    let categoriaAtiva = "Todas";
+    let termoBusca = "";
+
+    // ─── Renderizar filtros ───────────────────────────
+    function renderFiltros() {
+      const container = document.getElementById("filtros");
+      container.innerHTML = "";
+      categorias.forEach(cat => {
+        const btn = document.createElement("button");
+        btn.className = "filtro-btn" + (cat === categoriaAtiva ? " ativo" : "");
+        btn.textContent = cat;
+        btn.addEventListener("click", () => {
+          categoriaAtiva = cat;
+          renderFiltros();
+          renderGrid();
+        });
+        container.appendChild(btn);
+      });
+    }
+
+    // ─── Filtrar expressões ───────────────────────────
+    function expressoesFiltradas() {
+      return expressoes.filter(exp => {
+        const matchCat = categoriaAtiva === "Todas" || exp.categoria === categoriaAtiva;
+        const termo    = termoBusca.toLowerCase().trim();
+        const matchBusca = !termo ||
+          exp.palavra.toLowerCase().includes(termo) ||
+          exp.categoria.toLowerCase().includes(termo) ||
+          exp.descricao.toLowerCase().includes(termo);
+        return matchCat && matchBusca;
+      });
+    }
+
+    // ─── Renderizar grid ──────────────────────────────
+    function renderGrid() {
+      const grid    = document.getElementById("gridExpressoes");
+      const semRes  = document.getElementById("semResultados");
+      const contagem = document.getElementById("contagem");
+      const lista   = expressoesFiltradas();
+
+      grid.innerHTML = "";
+
+      if (lista.length === 0) {
+        semRes.style.display = "block";
+        contagem.textContent = "";
+        return;
+      }
+
+      semRes.style.display = "none";
+      contagem.textContent = `${lista.length} expressão${lista.length !== 1 ? "ões" : ""} encontrada${lista.length !== 1 ? "s" : ""}`;
+
+      lista.forEach(exp => {
+        const card = document.createElement("div");
+        card.className = "expressao-card";
+        card.setAttribute("tabindex", "0");
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-label", `Ver expressão: ${exp.palavra}`);
+
+        card.innerHTML = `
+          <div class="card-gif-area">
+            <span class="card-gif-label">GIF</span>
+            <div class="card-placeholder">GIF: ${exp.palavra}</div>
+          </div>
+          <div class="card-body">
+            <p class="card-categoria">${exp.categoria}</p>
+            <h3 class="card-titulo">${exp.palavra}</h3>
+            <p class="card-descricao">${exp.descricao}</p>
+          </div>
+        `;
+
+        card.addEventListener("click",  () => abrirModal(exp));
+        card.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") abrirModal(exp); });
+
+        grid.appendChild(card);
+      });
+    }
+
+    // ─── Modal ────────────────────────────────────────
+    function abrirModal(exp) {
+      document.getElementById("modalCategoria").textContent  = exp.categoria;
+      document.getElementById("modalTitulo").textContent     = exp.palavra;
+      document.getElementById("modalDescricao").textContent  = exp.descricao;
+      document.getElementById("modalContexto").textContent   = exp.contexto;
+
+      const gifArea        = document.getElementById("modalGifArea");
+      const gifPlaceholder = document.getElementById("modalGifPlaceholder");
+
+      // Remove img anterior se houver
+      const imgAnterior = gifArea.querySelector("img.modal-gif-img");
+      if (imgAnterior) imgAnterior.remove();
+
+      if (exp.gif) {
+        gifPlaceholder.style.display = "none";
+        const img = document.createElement("img");
+        img.src = exp.gif;
+        img.alt = `GIF do sinal de LIBRAS para: ${exp.palavra}`;
+        img.className = "modal-gif-img";
+        img.style.cssText = "width:100%;height:100%;object-fit:cover;";
+        img.onerror = () => {
+          img.remove();
+          gifPlaceholder.style.display = "flex";
+          gifPlaceholder.textContent = exp.palavra;
+        };
+        gifArea.appendChild(img);
+      } else {
+        gifPlaceholder.style.display = "flex";
+        gifPlaceholder.textContent = exp.palavra;
+      }
+
+      document.getElementById("modal").classList.add("aberto");
+      document.body.style.overflow = "hidden";
+    }
+
+    function fecharModal() {
+      document.getElementById("modal").classList.remove("aberto");
+      document.body.style.overflow = "";
+    }
+
+    // ─── Eventos ──────────────────────────────────────
+    document.getElementById("modalFechar").addEventListener("click", fecharModal);
+    document.getElementById("modal").addEventListener("click", e => {
+      if (e.target === document.getElementById("modal")) fecharModal();
+    });
+
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape") fecharModal();
+    });
+
+    document.getElementById("campoBusca").addEventListener("input", e => {
+      termoBusca = e.target.value;
+      renderGrid();
+    });
+
+    // Menu mobile
+    document.getElementById("hamburger").addEventListener("click", () => {
+      document.getElementById("navLinks").classList.toggle("aberto");
+    });
+
+    // ─── Init ─────────────────────────────────────────
+    renderFiltros();
+    renderGrid();
+  </script>
+
+</body>
+</html>
