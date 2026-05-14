@@ -8,8 +8,8 @@
 
 | Campo | Informação |
 |-------|-----------|
-| Nome da aplicação | *(preencher)* |
-| Tecnologias utilizadas | *(preencher)* |
+| Nome da aplicação | Libraspédia |
+| Tecnologias utilizadas | HTML, CSS, JavaScript |
 | URL em produção | *(preencher, se hospedado)* |
 
 ## Como Executar Localmente
