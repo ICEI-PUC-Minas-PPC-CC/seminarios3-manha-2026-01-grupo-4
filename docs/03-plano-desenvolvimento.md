@@ -52,7 +52,7 @@
 
 ### Ambiente de desenvolvimento
 
-setup: VS Figma, Github, etc.
+setup: Figma, Github, etc.
 
 ### Estratégia de testes
 
