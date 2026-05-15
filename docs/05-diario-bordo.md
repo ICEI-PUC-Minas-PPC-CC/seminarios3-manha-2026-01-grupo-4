@@ -42,15 +42,17 @@ Interface deve ser predominantemente visual, com botões grandes, textos curtos 
 
 ---
 
-### Semana 03 — ___/___/___ a ___/___/___
+### Semana 03 — 19/03/2026
 
 **O que foi feito:**
+Definição formal dos requisitos. Criação do Documento de Requisitos. Início da prototipação no Figma.
 
-**Quem participou:**
+**Quem participou:** Todos.
 
 **Decisões técnicas tomadas:**
+Requisitos principais: lista de expressões, GIFs, busca e explicação. Escopo do MVP definido.
 
-**Próximos passos:**
+**Próximos passos:** Concluir wireframes e iniciar desenvolvimento.
 
 ---
 
