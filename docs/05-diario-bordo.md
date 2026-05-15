@@ -56,9 +56,21 @@ Requisitos principais: lista de expressões, GIFs, busca e explicação. Escopo 
 
 ---
 
-*(Copie o bloco acima para cada semana de atividade ao longo do semestre.)*
+### Semana 04 — Prototipação e Design
+
+**O que foi feito:**
+Wireframe completo no Figma com 3 páginas: Home, Lista e Contatos. Definição da identidade visual: azul (#1A4FA0), amarelo (#F5C300) e cinza claro (#F0F2F5).
+
+**Quem participou:** Samuel, Diogo, Asahfe.
+
+**Decisões técnicas tomadas:**
+Paleta e tipografia definidas. Layout responsivo desde o início. GIFs como elemento central.
+
+**Próximos passos:** Desenvolvimento com base nos wireframes.
 
 ---
+
+
 
 ## Registro da Entrega Presencial
 
