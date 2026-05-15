@@ -24,15 +24,13 @@
 | 3 | 19/03 | Definição de requisitos | Todos| feito |
 | 4 | 25/03| Prototipação / wireframes | Samuel| feito |
 | 5 | 13/05| Desenvolvimento — Sprint 1 | Todos | iniciado |
-| 6 | | Desenvolvimento — Sprint 1 | | não iniciado |
-| 7 | | Validação com a comunidade | | não iniciado |
-| 8 | | Desenvolvimento — Sprint 2 | | não iniciado |
-| 9 | | Desenvolvimento — Sprint 2 | | não iniciado |
-| 10 | | Testes e ajustes | | não iniciado |
-| 11 | | Deploy / hospedagem | | não iniciado |
-| 12 | | Validação final com a comunidade | | não iniciado |
-| 13 | | **Entrega presencial** | Todos | não iniciado |
-| 14 | | Preenchimento dos relatórios APC | Todos | não iniciado |
+| 6 | ? | Validação com a comunidade | | não iniciado |
+| 7 | 13/05/2026 | Desenvolvimento — Sprint 2 | | não iniciado |
+| 8 | 15/05/2026 | Testes e ajustes | | não iniciado |
+| 9 | 15/05/2026 | Deploy / hospedagem | | não iniciado |
+| 10 | ? | Validação final com a comunidade | | não iniciado |
+| 11 | ? | **Entrega presencial** | Todos | não iniciado |
+| 12 | ? | Preenchimento dos relatórios APC | Todos | não iniciado |
 
 > Ajuste o cronograma conforme o calendário do semestre e os feriados.
 
