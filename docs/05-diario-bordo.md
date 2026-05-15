@@ -28,15 +28,17 @@ Etapa 2 do desenvolvimento - Requisitos--> Documento de requisitos elaborado (02
 
 ---
 
-### Semana 02 — ___/___/___ a ___/___/___
+### Semana 02 — 06/03/2026
 
 **O que foi feito:**
+Contato com o Centro Municipal de Atendimento Educacional Especializado Dr. Tarso de Coimbra. Levantamento das demandas dos usuários (pessoas com deficiência auditiva, faixas etárias 8–14 e 60–80 anos).
 
-**Quem participou:**
+**Quem participou:** Samuel (líder), Vinicius, Diogo.
 
 **Decisões técnicas tomadas:**
+Interface deve ser predominantemente visual, com botões grandes, textos curtos e GIFs demonstrativos dos sinais.
 
-**Próximos passos:**
+**Próximos passos:** Documentar requisitos formalmente.
 
 ---
 
