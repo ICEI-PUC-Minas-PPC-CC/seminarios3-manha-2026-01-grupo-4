@@ -61,7 +61,7 @@ Requisitos principais: lista de expressões, GIFs, busca e explicação. Escopo 
 **O que foi feito:**
 Wireframe completo no Figma com 3 páginas: Home, Lista e Contatos. Definição da identidade visual: azul (#1A4FA0), amarelo (#F5C300) e cinza claro (#F0F2F5).
 
-**Quem participou:** Samuel, Diogo, Asahfe.
+**Quem participou:** Samuel, Diogo, Asahfe, Vinicius.
 
 **Decisões técnicas tomadas:**
 Paleta e tipografia definidas. Layout responsivo desde o início. GIFs como elemento central.
