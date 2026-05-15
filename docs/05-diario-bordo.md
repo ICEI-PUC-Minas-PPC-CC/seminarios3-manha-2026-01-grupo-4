@@ -70,7 +70,27 @@ Paleta e tipografia definidas. Layout responsivo desde o início. GIFs como elem
 
 ---
 
+### Semana 05–06 — Desenvolvimento Sprint 1 (MVP)
 
+**O que foi feito:**
+Desenvolvimento completo do MVP. Arquivos criados:
+- `index.html` — Página inicial
+- `lista.html` — 63 expressões com busca, filtros e modal
+- `contatos.html` — Formulário de contato
+- `style.css` — Design system responsivo
+- `dados.js` — Base de dados com 63 expressões em 12 categorias
+
+**Quem participou:** Todos.
+
+**Decisões técnicas tomadas:**
+- Dados centralizados em `dados.js` para fácil manutenção
+- Modal para exibir GIF e detalhes sem sair da página
+- Busca em tempo real e filtros por categoria
+- Formulário com validação em JavaScript
+
+**Próximos passos:** Testes, validação com a comunidade e deploy.
+
+---
 
 ## Registro da Entrega Presencial
 
