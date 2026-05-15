@@ -56,7 +56,7 @@ setup: Figma, Github, etc.
 
 ### Estratégia de testes
 
-O grupo vai testar por meio do proprio Vs code, aonde vamos testar por meio de local host.
+O grupo utilizou o Figma para o desenvolvimento do site, onde é possivel atualizar em tempo real e ir melhorando a interface.
 
 ### Estratégia de deploy
 
