@@ -52,7 +52,7 @@
 
 ### Ambiente de desenvolvimento
 
-setup: VS code, Ultima versão, Github, etc.
+setup: VS Figma, Github, etc.
 
 ### Estratégia de testes
 
