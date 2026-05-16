@@ -50,7 +50,7 @@
 
 ### Ambiente de desenvolvimento
 
-setup: Figma, Github, etc.
+setup: Figma, HTML, Github, etc.
 
 ### Estratégia de testes
 
