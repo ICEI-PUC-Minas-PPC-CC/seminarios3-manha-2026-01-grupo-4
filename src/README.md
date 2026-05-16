@@ -36,6 +36,7 @@ src/
 ├── dados.js
 ├── index.html
 ├── lista.html
+├── README.md
 └── style.css
 
 ```
