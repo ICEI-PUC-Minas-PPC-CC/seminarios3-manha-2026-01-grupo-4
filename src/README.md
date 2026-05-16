@@ -1,8 +1,175 @@
 # 📂 Código-Fonte da Aplicação
 
-> Coloque aqui o código-fonte do software desenvolvido pelo grupo.
+-contatos.html
 
----
+          <!DOCTYPE html>
+          <html lang="pt-BR">
+          <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Contatos — Libraspédia</title>
+            <meta name="description" content="Entre em contato conosco ou envie uma sugestão de expressão para a Libraspédia." />
+            <link rel="stylesheet" href="style.css" />
+          </head>
+          <body>
+          
+            <!-- ╔══════════════════════════════╗ -->
+            <!-- ║          NAVBAR              ║ -->
+            <!-- ╚══════════════════════════════╝ -->
+            <nav class="navbar">
+              <a class="nav-logo" href="index.html">
+                <span class="star">⭐</span> Libraspédia
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+              </button>
+              <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lista.html">Lista</a></li>
+                <li><a href="contatos.html" class="active">Contatos</a></li>
+              </ul>
+            </nav>
+          
+            <!-- ╔══════════════════════════════╗ -->
+            <!-- ║        HERO CONTATOS         ║ -->
+            <!-- ╚══════════════════════════════╝ -->
+            <header class="contatos-hero">
+              <h1>Contatos</h1>
+              <p>Entre em contato conosco ou envie uma sugestão de expressão</p>
+            </header>
+          
+            <!-- ╔══════════════════════════════╗ -->
+            <!-- ║       LAYOUT CONTATOS        ║ -->
+            <!-- ╚══════════════════════════════╝ -->
+            <main class="contatos-layout">
+          
+              <!-- Informações de contato -->
+              <div class="contatos-info">
+                <h2>⭐ Libraspédia</h2>
+                <p>
+                  Somos um projeto dedicado a tornar a Língua Brasileira de Sinais mais acessível para
+                  todos. Tem dúvidas, sugestões ou quer colaborar? Fale com a gente!
+                </p>
+          
+                <div class="canal-item">
+                  <div class="canal-icone">✉️</div>
+                  <div class="canal-info">
+                    <small>E-MAIL</small>
+                    <span>contato@libraspedia.com.br</span>
+                  </div>
+                </div>
+          
+                <div class="canal-item">
+                  <div class="canal-icone">📷</div>
+                  <div class="canal-info">
+                    <small>INSTAGRAM</small>
+                    <span>@libraspedia</span>
+                  </div>
+                </div>
+          
+                <div class="canal-item">
+                  <div class="canal-icone">💬</div>
+                  <div class="canal-info">
+                    <small>WHATSAPP</small>
+                    <span>+55 (11) 99999-0000</span>
+                  </div>
+                </div>
+          
+                <div class="canal-item">
+                  <div class="canal-icone">🐱</div>
+                  <div class="canal-info">
+                    <small>GITHUB</small>
+                    <span>github.com/libraspedia</span>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Formulário -->
+              <div class="form-card">
+                <h3>Envie uma mensagem</h3>
+          
+                <div class="form-grupo">
+                  <label for="nome">Nome</label>
+                  <input type="text" id="nome" class="form-input" placeholder="Seu nome completo" />
+                </div>
+          
+                <div class="form-grupo">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" class="form-input" placeholder="seu@email.com" />
+                </div>
+          
+                <div class="form-grupo">
+                  <label for="mensagem">Mensagem</label>
+                  <textarea id="mensagem" class="form-textarea" placeholder="Escreva sua mensagem, sugestão ou dúvida..."></textarea>
+                </div>
+          
+                <button class="btn-enviar" id="btnEnviar">Enviar mensagem</button>
+          
+                <div class="mensagem-sucesso" id="msgSucesso">
+                  ✅ Mensagem enviada com sucesso! Obrigado pelo contato.
+                </div>
+              </div>
+          
+            </main>
+          
+            <!-- ╔══════════════════════════════╗ -->
+            <!-- ║           FOOTER             ║ -->
+            <!-- ╚══════════════════════════════╝ -->
+            <footer>
+              <div class="footer-inner">
+                <div class="footer-logo">⭐ Libraspédia</div>
+                <div class="footer-contatos">
+                  <h4>Contatos</h4>
+                  <p>contato@libraspedia.com.br</p>
+                  <p>Instagram: @libraspedia</p>
+                </div>
+              </div>
+              <p class="footer-copy">© 2026 Libraspédia · Todos os direitos reservados</p>
+            </footer>
+          
+            <script>
+              // Menu mobile
+              document.getElementById("hamburger").addEventListener("click", () => {
+                document.getElementById("navLinks").classList.toggle("aberto");
+              });
+          
+              // Formulário (simulação — sem backend)
+              document.getElementById("btnEnviar").addEventListener("click", () => {
+                const nome     = document.getElementById("nome").value.trim();
+                const email    = document.getElementById("email").value.trim();
+                const mensagem = document.getElementById("mensagem").value.trim();
+          
+                if (!nome || !email || !mensagem) {
+                  alert("Por favor, preencha todos os campos antes de enviar.");
+                  return;
+                }
+          
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                  alert("Por favor, insira um e-mail válido.");
+                  return;
+                }
+          
+                // Simulação de envio
+                const btn = document.getElementById("btnEnviar");
+                btn.textContent = "Enviando...";
+                btn.disabled = true;
+          
+                setTimeout(() => {
+                  document.getElementById("msgSucesso").style.display = "block";
+                  btn.textContent = "Enviar mensagem";
+                  btn.disabled = false;
+                  document.getElementById("nome").value = "";
+                  document.getElementById("email").value = "";
+                  document.getElementById("mensagem").value = "";
+                }, 1000);
+              });
+            </script>
+          
+          </body>
+          </html>
+
+
 
 ## Informações do Projeto
 
