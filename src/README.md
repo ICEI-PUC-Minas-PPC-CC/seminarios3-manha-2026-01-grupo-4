@@ -20,6 +20,9 @@ git clone <url-do-repositorio>
 
 # 2. Verifique a versão do python
 python --version
+caso não tenha python instalado execute no terminal
+sudo apt update
+sudo apt install python3
 
 # 3. Na pasta src execute
 python -m http.server 8000
