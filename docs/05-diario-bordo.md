@@ -70,7 +70,7 @@ Paleta e tipografia definidas. Layout responsivo desde o início. GIFs como elem
 
 ---
 
-### Semana 05–06 — Desenvolvimento Sprint 1 (MVP)
+### Semana 05 — Desenvolvimento Sprint 1 (MVP)
 
 **O que foi feito:**
 Desenvolvimento completo do MVP. Arquivos criados:
@@ -88,7 +88,16 @@ Desenvolvimento completo do MVP. Arquivos criados:
 - Busca em tempo real e filtros por categoria
 - Formulário com validação em JavaScript
 
-**Próximos passos:** Testes, validação com a comunidade e deploy.
+Semana 06 — Testes e Validação
+O que foi feito:
+Testes locais via Live Server no VS Code. Verificação de responsividade. Testes de acessibilidade: teclado, contraste, aria-labels.
+
+Quem participou: Diogo, Vinicius, Igor, Asahfe.
+
+Decisões técnicas tomadas:
+Ajustes finais no layout mobile. MVP validado e funcional.
+
+Próximos passos: Deploy e validação com a comunidade.
 
 ---
 
