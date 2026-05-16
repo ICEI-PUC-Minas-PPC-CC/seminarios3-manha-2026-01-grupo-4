@@ -25,11 +25,12 @@ python --version
 python -m http.server 8000
 
 # 4. Abra a pagina
-No terminal algo como (Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
-) deveria aparecer, utilizando a url entre parenteses pode-se abrir o site
+No terminal algo como (Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...)
+deveria aparecer, utilizando a url entre parenteses pode-se abrir o site
 
 # 5. Fechando o localhost
-No terminal aperte "Control" + "c", um texto como (Keyboard interrupt received, exiting.) deveria aparecer e interromper o processo
+No terminal aperte "Control" + "c", um texto como (Keyboard interrupt received, exiting.)
+deveria aparecer e interromper o processo
 ```
 
 ## Estrutura do Código
