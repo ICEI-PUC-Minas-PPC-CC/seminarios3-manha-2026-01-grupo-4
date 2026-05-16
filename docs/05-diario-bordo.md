@@ -78,7 +78,7 @@ Desenvolvimento completo do MVP. Arquivos criados:
 - `lista.html` — Lista "63 expressões com busca, filtros, modal para aprender com vídeos explicativos, além disso ao clicar abre abas com explicações e tags sobre a expressão/palavra"
 - `contatos.html` — Contatos "Formulário de contatos com email, telefone, instagram e github"
 - `style.css` — Design system responsivo
-- `dados.js` — Base de dados com 63 expressões em 12 categorias
+- `dados.js` — Base de dados com 63 expressões em 12 categorias e textos explicando em maior detalhe.
 
 **Quem participou:** Todos.
 
