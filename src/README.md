@@ -48,4 +48,5 @@ src/
 
 ## Deploy
 
-*(Descreva como foi feito o deploy e onde a aplicação está hospedada.)*
+Utilizando o GitHub Pages, com o source GitHub Actions.
+http://icei-puc-minas-ppc-cc.github.io/seminarios3-manha-2026-01-grupo-4/
