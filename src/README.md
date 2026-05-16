@@ -14,8 +14,6 @@
 
 ## Como Executar Localmente
 
-*(Descreva os passos para rodar a aplicação localmente.)*
-
 ```bash
 # 1. Clone o repositório
 git clone <url-do-repositorio>
