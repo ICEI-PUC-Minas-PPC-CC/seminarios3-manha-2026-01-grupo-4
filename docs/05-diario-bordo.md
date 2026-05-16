@@ -88,8 +88,11 @@ Desenvolvimento completo do MVP. Arquivos criados:
 - Busca em tempo real e filtros por categoria
 - Formulário com validação em JavaScript
 
-Semana 06 — Testes e Validação
-O que foi feito:
+---
+
+### Semana 06 — Testes e Validação
+
+**O que foi feito:**
 Testes locais via Live Server no VS Code. Verificação de responsividade. Testes de acessibilidade: teclado, contraste, aria-labels.
 
 Quem participou: Diogo, Vinicius, Igor, Asahfe.
