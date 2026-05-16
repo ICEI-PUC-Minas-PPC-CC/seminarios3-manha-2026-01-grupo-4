@@ -74,8 +74,8 @@ Paleta e tipografia definidas. Layout responsivo desde o início. GIFs como elem
 
 **O que foi feito:**
 Desenvolvimento completo do MVP. Arquivos criados:
-- `index.html` — Página inicial "foi colocado uma aba de o que é o site, expressões em libras, razões para usar o LibrasPédia e informações gerais"
-- `lista.html` — Lista "63 expressões com busca, filtros, modal para aprender com vídeos explicativos"
+- `index.html` — Página inicial "foi colocado uma aba de "o que é" o site, expressões em libras, razões para usar o LibrasPédia e informações gerais. Possui um botão para entrar oficialmente na aba com as expressões e gifs."
+- `lista.html` — Lista "63 expressões com busca, filtros, modal para aprender com vídeos explicativos, além disso ao clicar abre abas com explicações e tags sobre a expressão/palavra"
 - `contatos.html` — Contatos "Formulário de contatos com email, telefone, instagram e github"
 - `style.css` — Design system responsivo
 - `dados.js` — Base de dados com 63 expressões em 12 categorias
