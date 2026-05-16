@@ -46,8 +46,6 @@ src/
 
 ```
 
-*(Adapte conforme as tecnologias escolhidas pelo grupo.)*
-
 ## Deploy
 
 *(Descreva como foi feito o deploy e onde a aplicação está hospedada.)*
