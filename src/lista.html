@@ -4,21 +4,107 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lista de Expressões — Libraspédia</title>
-  <meta name="description" content="Explore nossa lista completa de expressões em LIBRAS com GIFs, descrições e contextos de uso." />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ── Estilos extras do modal com iframe ── */
+    .modal-iframe-area {
+      background: #0d2a5e;
+      height: 260px;
+      position: relative;
+      overflow: hidden;
+    }
+    .modal-iframe-area iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .modal-iframe-area .iframe-loading {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.9rem;
+      gap: 10px;
+      pointer-events: none;
+      transition: opacity 0.4s;
+    }
+    .modal-iframe-area .iframe-loading .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid rgba(255,255,255,0.2);
+      border-top-color: #F5C300;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .modal-iframe-area .iframe-loading.oculto { opacity: 0; }
+
+    .modal-fechar {
+      position: absolute;
+      top: 10px; right: 12px;
+      background: rgba(255,255,255,0.2);
+      border: none; color: #fff;
+      font-size: 1.2rem;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 10;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .modal-fechar:hover { background: rgba(255,255,255,0.35); }
+
+    .btn-spread {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #1A4FA0;
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 50px;
+      margin-top: 12px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-spread:hover { background: #143d7a; }
+
+    /* badge VIDEO no card */
+    .card-gif-area { cursor: pointer; }
+    .badge-video {
+      position: absolute;
+      top: 8px; left: 8px;
+      background: #1A4FA0;
+      color: #fff;
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 50px;
+      letter-spacing: 0.04em;
+    }
+    .card-placeholder {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: rgba(255,255,255,0.8);
+      text-align: center;
+      padding: 0 1rem;
+      line-height: 1.3;
+    }
+    .play-icon {
+      font-size: 2rem;
+      margin-bottom: 6px;
+      opacity: 0.85;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- ╔══════════════════════════════╗ -->
-  <!-- ║          NAVBAR              ║ -->
-  <!-- ╚══════════════════════════════╝ -->
   <nav class="navbar">
-    <a class="nav-logo" href="index.html">
-      <span class="star">⭐</span> Libraspédia
-    </a>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
+    <a class="nav-logo" href="index.html"><span class="star">⭐</span> Libraspédia</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="lista.html" class="active">Lista</a></li>
@@ -26,57 +112,49 @@
     </ul>
   </nav>
 
-  <!-- ╔══════════════════════════════╗ -->
-  <!-- ║          HERO LISTA          ║ -->
-  <!-- ╚══════════════════════════════╝ -->
   <header class="lista-hero">
     <h1>Lista de Expressões</h1>
-    <p>Clique em qualquer expressão para ver o GIF e a explicação completa</p>
+    <p>Clique em qualquer expressão para ver o sinal em LIBRAS</p>
     <div class="search-wrap">
-      <input
-        type="text"
-        id="campoBusca"
-        class="search-input"
-        placeholder="Pesquisar expressão ou palavra..."
-        autocomplete="off"
-      />
+      <input type="text" id="campoBusca" class="search-input"
+        placeholder="Pesquisar expressão ou palavra..." autocomplete="off" />
       <span class="search-icon">🔍</span>
     </div>
   </header>
 
-  <!-- ╔══════════════════════════════╗ -->
-  <!-- ║         FILTROS              ║ -->
-  <!-- ╚══════════════════════════════╝ -->
   <div class="filtros-area">
     <div class="filtros-scroll" id="filtros"></div>
   </div>
-
   <p class="contagem-resultados" id="contagem"></p>
 
-  <!-- ╔══════════════════════════════╗ -->
-  <!-- ║       GRID DE EXPRESSÕES     ║ -->
-  <!-- ╚══════════════════════════════╝ -->
   <main>
     <div class="expressoes-grid" id="gridExpressoes"></div>
     <div class="sem-resultados" id="semResultados">
       <div class="emoji">🤷</div>
       <p>Nenhuma expressão encontrada.</p>
-      <p style="font-size:0.88rem;margin-top:4px;">Tente outra palavra ou categoria.</p>
+      <p style="font-size:.88rem;margin-top:4px;">Tente outra palavra ou categoria.</p>
     </div>
   </main>
 
-  <!-- ╔══════════════════════════════╗ -->
-  <!-- ║            MODAL             ║ -->
-  <!-- ╚══════════════════════════════╝ -->
-  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+  <!-- ══ MODAL ══════════════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true">
     <div class="modal-box">
-      <div class="modal-gif-area" id="modalGifArea">
+
+      <!-- Área do vídeo LIBRAS via Spread The Sign -->
+      <div class="modal-iframe-area" id="modalIframeArea">
         <button class="modal-fechar" id="modalFechar" aria-label="Fechar">✕</button>
-        <div class="modal-gif-placeholder" id="modalGifPlaceholder"></div>
+        <div class="iframe-loading" id="iframeLoading">
+          <div class="spinner"></div>
+          <span>Carregando sinal em LIBRAS...</span>
+        </div>
+        <iframe id="modalIframe" src="" title="Sinal em LIBRAS - Spread The Sign"
+          allowfullscreen sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
       </div>
+
       <div class="modal-conteudo">
         <p class="modal-categoria" id="modalCategoria"></p>
         <h2 class="modal-titulo" id="modalTitulo"></h2>
+
         <div class="modal-info-bloco">
           <p class="modal-info-label">Descrição</p>
           <p class="modal-info-texto" id="modalDescricao"></p>
@@ -85,13 +163,15 @@
           <p class="modal-info-label">Quando usar</p>
           <p class="modal-info-texto" id="modalContexto"></p>
         </div>
+
+        <!-- Botão para abrir no Spread The Sign se iframe bloquear -->
+        <a id="btnSpread" href="#" target="_blank" class="btn-spread">
+          🔗 Ver no Spread The Sign
+        </a>
       </div>
     </div>
   </div>
 
-  <!-- ╔══════════════════════════════╗ -->
-  <!-- ║           FOOTER             ║ -->
-  <!-- ╚══════════════════════════════╝ -->
   <footer>
     <div class="footer-inner">
       <div class="footer-logo">⭐ Libraspédia</div>
@@ -104,37 +184,34 @@
     <p class="footer-copy">© 2026 Libraspédia · Todos os direitos reservados</p>
   </footer>
 
-  <!-- ── Dados ── -->
   <script src="dados.js"></script>
-
-  <!-- ── Lógica da Lista ── -->
   <script>
-    // ─── Estado ───────────────────────────────────────
     let categoriaAtiva = "Todas";
     let termoBusca = "";
 
-    // ─── Renderizar filtros ───────────────────────────
+    // URL do Spread The Sign em LIBRAS para cada palavra
+    function urlSpread(busca) {
+      return `https://www.spreadthesign.com/pt.br/search/?q=${busca}&lang=pt.br`;
+    }
+
+    // ─── Filtros ──────────────────────────────────────────────
     function renderFiltros() {
-      const container = document.getElementById("filtros");
-      container.innerHTML = "";
+      const c = document.getElementById("filtros");
+      c.innerHTML = "";
       categorias.forEach(cat => {
         const btn = document.createElement("button");
         btn.className = "filtro-btn" + (cat === categoriaAtiva ? " ativo" : "");
         btn.textContent = cat;
-        btn.addEventListener("click", () => {
-          categoriaAtiva = cat;
-          renderFiltros();
-          renderGrid();
-        });
-        container.appendChild(btn);
+        btn.addEventListener("click", () => { categoriaAtiva = cat; renderFiltros(); renderGrid(); });
+        c.appendChild(btn);
       });
     }
 
-    // ─── Filtrar expressões ───────────────────────────
+    // ─── Filtrar ──────────────────────────────────────────────
     function expressoesFiltradas() {
       return expressoes.filter(exp => {
-        const matchCat = categoriaAtiva === "Todas" || exp.categoria === categoriaAtiva;
-        const termo    = termoBusca.toLowerCase().trim();
+        const matchCat   = categoriaAtiva === "Todas" || exp.categoria === categoriaAtiva;
+        const termo      = termoBusca.toLowerCase().trim();
         const matchBusca = !termo ||
           exp.palavra.toLowerCase().includes(termo) ||
           exp.categoria.toLowerCase().includes(termo) ||
@@ -143,7 +220,7 @@
       });
     }
 
-    // ─── Renderizar grid ──────────────────────────────
+    // ─── Grid ─────────────────────────────────────────────────
     function renderGrid() {
       const grid    = document.getElementById("gridExpressoes");
       const semRes  = document.getElementById("semResultados");
@@ -151,13 +228,11 @@
       const lista   = expressoesFiltradas();
 
       grid.innerHTML = "";
-
       if (lista.length === 0) {
         semRes.style.display = "block";
         contagem.textContent = "";
         return;
       }
-
       semRes.style.display = "none";
       contagem.textContent = `${lista.length} expressão${lista.length !== 1 ? "ões" : ""} encontrada${lista.length !== 1 ? "s" : ""}`;
 
@@ -166,58 +241,47 @@
         card.className = "expressao-card";
         card.setAttribute("tabindex", "0");
         card.setAttribute("role", "button");
-        card.setAttribute("aria-label", `Ver expressão: ${exp.palavra}`);
-
+        card.setAttribute("aria-label", `Ver sinal em LIBRAS: ${exp.palavra}`);
         card.innerHTML = `
           <div class="card-gif-area">
-            <span class="card-gif-label">GIF</span>
-            <div class="card-placeholder">GIF: ${exp.palavra}</div>
+            <span class="badge-video">▶ LIBRAS</span>
+            <div class="card-placeholder">
+              <div class="play-icon">🤟</div>
+              ${exp.palavra}
+            </div>
           </div>
           <div class="card-body">
             <p class="card-categoria">${exp.categoria}</p>
             <h3 class="card-titulo">${exp.palavra}</h3>
             <p class="card-descricao">${exp.descricao}</p>
-          </div>
-        `;
-
-        card.addEventListener("click",  () => abrirModal(exp));
+          </div>`;
+        card.addEventListener("click",   () => abrirModal(exp));
         card.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") abrirModal(exp); });
-
         grid.appendChild(card);
       });
     }
 
-    // ─── Modal ────────────────────────────────────────
+    // ─── Modal ────────────────────────────────────────────────
     function abrirModal(exp) {
-      document.getElementById("modalCategoria").textContent  = exp.categoria;
-      document.getElementById("modalTitulo").textContent     = exp.palavra;
-      document.getElementById("modalDescricao").textContent  = exp.descricao;
-      document.getElementById("modalContexto").textContent   = exp.contexto;
+      document.getElementById("modalCategoria").textContent = exp.categoria;
+      document.getElementById("modalTitulo").textContent    = exp.palavra;
+      document.getElementById("modalDescricao").textContent = exp.descricao;
+      document.getElementById("modalContexto").textContent  = exp.contexto;
 
-      const gifArea        = document.getElementById("modalGifArea");
-      const gifPlaceholder = document.getElementById("modalGifPlaceholder");
+      const url = urlSpread(exp.busca);
+      document.getElementById("btnSpread").href = url;
 
-      // Remove img anterior se houver
-      const imgAnterior = gifArea.querySelector("img.modal-gif-img");
-      if (imgAnterior) imgAnterior.remove();
-
-      if (exp.gif) {
-        gifPlaceholder.style.display = "none";
-        const img = document.createElement("img");
-        img.src = exp.gif;
-        img.alt = `GIF do sinal de LIBRAS para: ${exp.palavra}`;
-        img.className = "modal-gif-img";
-        img.style.cssText = "width:100%;height:100%;object-fit:cover;";
-        img.onerror = () => {
-          img.remove();
-          gifPlaceholder.style.display = "flex";
-          gifPlaceholder.textContent = exp.palavra;
-        };
-        gifArea.appendChild(img);
-      } else {
-        gifPlaceholder.style.display = "flex";
-        gifPlaceholder.textContent = exp.palavra;
-      }
+      // Carrega o iframe
+      const iframe  = document.getElementById("modalIframe");
+      const loading = document.getElementById("iframeLoading");
+      loading.classList.remove("oculto");
+      iframe.src = "";
+      setTimeout(() => {
+        iframe.src = url;
+        iframe.onload = () => loading.classList.add("oculto");
+        // fallback: esconde loader após 5s de qualquer forma
+        setTimeout(() => loading.classList.add("oculto"), 5000);
+      }, 100);
 
       document.getElementById("modal").classList.add("aberto");
       document.body.style.overflow = "hidden";
@@ -225,33 +289,24 @@
 
     function fecharModal() {
       document.getElementById("modal").classList.remove("aberto");
+      document.getElementById("modalIframe").src = "";
       document.body.style.overflow = "";
     }
 
-    // ─── Eventos ──────────────────────────────────────
     document.getElementById("modalFechar").addEventListener("click", fecharModal);
     document.getElementById("modal").addEventListener("click", e => {
       if (e.target === document.getElementById("modal")) fecharModal();
     });
-
-    document.addEventListener("keydown", e => {
-      if (e.key === "Escape") fecharModal();
-    });
-
+    document.addEventListener("keydown", e => { if (e.key === "Escape") fecharModal(); });
     document.getElementById("campoBusca").addEventListener("input", e => {
-      termoBusca = e.target.value;
-      renderGrid();
+      termoBusca = e.target.value; renderGrid();
     });
-
-    // Menu mobile
     document.getElementById("hamburger").addEventListener("click", () => {
       document.getElementById("navLinks").classList.toggle("aberto");
     });
 
-    // ─── Init ─────────────────────────────────────────
     renderFiltros();
     renderGrid();
   </script>
-
 </body>
 </html>
