@@ -44,8 +44,7 @@
       <h2>⭐ Libraspédia</h2>
       <p>
         Somos um projeto dedicado a tornar a Língua Brasileira de Sinais mais acessível para
-        todos. Tem dúvidas, sugestões ou quer colaborar? Fale com a gente! Você pode entrar
-        em contato com qualquer um dos e-mails abaixo — ficaremos felizes em responder!
+        todos. Tem dúvidas, sugestões ou quer colaborar? Fale com a gente!
       </p>
 
       <div class="canal-item">
@@ -141,8 +140,8 @@
       document.getElementById("navLinks").classList.toggle("aberto");
     });
 
-    // Formulário (simulação — sem backend)
-    document.getElementById("btnEnviar").addEventListener("click", () => {
+    // Formulário — Formspree
+    document.getElementById("btnEnviar").addEventListener("click", async () => {
       const nome     = document.getElementById("nome").value.trim();
       const email    = document.getElementById("email").value.trim();
       const mensagem = document.getElementById("mensagem").value.trim();
@@ -158,19 +157,31 @@
         return;
       }
 
-      // Simulação de envio
       const btn = document.getElementById("btnEnviar");
       btn.textContent = "Enviando...";
       btn.disabled = true;
 
-      setTimeout(() => {
-        document.getElementById("msgSucesso").style.display = "block";
-        btn.textContent = "Enviar mensagem";
-        btn.disabled = false;
-        document.getElementById("nome").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("mensagem").value = "";
-      }, 1000);
+      try {
+        const response = await fetch("https://formspree.io/f/xaqkaeza", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ nome, email, message: mensagem })
+        });
+
+        if (response.ok) {
+          document.getElementById("msgSucesso").style.display = "block";
+          document.getElementById("nome").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("mensagem").value = "";
+        } else {
+          alert("Erro ao enviar. Tente novamente.");
+        }
+      } catch (err) {
+        alert("Erro de conexão. Tente novamente.");
+      }
+
+      btn.textContent = "Enviar mensagem";
+      btn.disabled = false;
     });
   </script>
 
