@@ -25,7 +25,7 @@
 | 4 | 25/03| Prototipação / wireframes | Samuel| feito |
 | 5 | 13/05| Desenvolvimento — Sprint 1 | Todos | iniciado |
 | 6 | ? | Validação com a comunidade | | não iniciado |
-| 7 | 13/05/2026 | Desenvolvimento — Sprint 2 | Todos | feito |
+| 7 | 14/05/2026 | Desenvolvimento — Sprint 2 | Todos | feito |
 | 8 | 15/05/2026 | Testes e ajustes | Todos | feito |
 | 9 | 15/05/2026 | Deploy / hospedagem | Todos | feito |
 | 10 | ? | Validação final com a comunidade | | não iniciado |
