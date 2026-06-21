@@ -106,11 +106,11 @@ Próximos passos: Deploy e validação com a comunidade.
 
 ## Registro da Entrega Presencial
 
-**Data:** ___/___/___  
-**Local:**  
-**Horário:** ___ às ___  
-**Participantes do grupo presentes:**  
-**Nº de participantes da comunidade:**
+**Data:** 25/06/2026  
+**Local:** Puc  
+**Horário:** 14h15 às 15h  
+**Participantes do grupo presentes:** Samuel Carbone Pereira Pinto, Vinicius Eduardo Brasiliano dos Santos, Diogo Koch Felippe, Asahfe Shemuel Melo Sabino e Igor Augusto Borba Costa (Todos).
+**Nº de participantes da comunidade:** Por volta de 13/14
 
 ### Descrição da entrega
 
