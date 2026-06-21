@@ -110,15 +110,15 @@ Próximos passos: Deploy e validação com a comunidade.
 **Local:** Puc  
 **Horário:** 14h15 às 15h  
 **Participantes do grupo presentes:** Samuel Carbone Pereira Pinto, Vinicius Eduardo Brasiliano dos Santos, Diogo Koch Felippe, Asahfe Shemuel Melo Sabino e Igor Augusto Borba Costa (Todos).
+
 **Nº de participantes da comunidade:** Por volta de 13/14
 
-### Descrição da entrega
-
-(Relatar como foi a entrega: demonstração do software, reação dos usuários, dúvidas que surgiram, etc.)
+### Descrição da entrega:
+Tudo ocorreu perfeitamente, mostramos o site, suas funcionalidades e a aba de contatos para enviar sugestões, a comunidade recebeu com positividade e interesse, foi uma ótima experiência para os 2 lados.
+Não ficou nenhuma dúvida.
 
 ### Feedback da comunidade
-
-(O que os usuários e responsáveis da comunidade acharam do software?)
+Os responsáveis da comunidade acharam super bacana a ideia e a maneira que se tornou o site, a comunidade observou e compartilhou o que achou e todos acharam ótimo como se saiu.
 
 ### Lições aprendidas
 
