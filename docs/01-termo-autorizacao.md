@@ -56,7 +56,7 @@ O projeto se baseia em um site que servirá no auxílio do aprendizado da lingua
 | Data | Forma de contato | Resumo do que foi tratado |
 | ------ | ----------------- | -------------------------- |
 | 06/03/26 | Online | Recebimento das demandas, sendo essas, jogos para o aprendizado e  site da comunidade|
-| | | |
+| 18/06/26 |Presencial |Entrega direta para a comunidade do Tarso de Coimbra, realizado na PUC Minas Poços de Caldas |
 | | | |
 
 ## 5. Agendamento da Entrega Presencial
