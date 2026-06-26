@@ -8,12 +8,12 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome do Grupo | |
-| Integrantes participantes | |
+| Nome do Grupo | Libraspédia |
+| Integrantes participantes | Samuel Carbone Pereira Pinto, Asahfe Shemuel Melo Sabino, Diogo Koch Filippe, Igor Augusto Borba Costa, Vinicius Eduardo Brasiliano dos Santos |
 | Disciplina | Seminários III |
-| Comunidade atendida | |
-| Software desenvolvido | |
-| URL da aplicação (se hospedada) | |
+| Comunidade atendida | Escola Municipal Doutor Tarso de Coimbra |
+| Software desenvolvido | Site de com palavras/termos em Libras, "Libraspédia"|
+| URL da aplicação (se hospedada) | https://icei-puc-minas-ppc-cc.github.io/seminarios3-manha-2026-01-grupo-4/ |
 
 ## Cronograma de Desenvolvimento
 
