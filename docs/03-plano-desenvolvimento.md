@@ -23,14 +23,14 @@
 | 2 | 06/03 | Contato com comunidade e Levantamento de demandas | Asahfe | feito |
 | 3 | 19/03 | Definição de requisitos | Todos| feito |
 | 4 | 25/03| Prototipação / wireframes | Samuel| feito |
-| 5 | 13/05| Desenvolvimento — Sprint 1 | Todos | iniciado |
-| 6 | ? | Validação com a comunidade | | não iniciado |
+| 5 | 13/05| Desenvolvimento — Sprint 1 | Todos | feito |
+| 6 | 18/06/2026 | Validação com a comunidade | Todos | feito|
 | 7 | 14/05/2026 | Desenvolvimento — Sprint 2 | Todos | feito |
 | 8 | 15/05/2026 | Testes e ajustes | Todos | feito |
 | 9 | 15/05/2026 | Deploy / hospedagem | Todos | feito |
-| 10 | ? | Validação final com a comunidade | | não iniciado |
-| 11 | ? | **Entrega presencial** | Todos | não iniciado |
-| 12 | ? | Preenchimento dos relatórios APC | Todos | não iniciado |
+| 10 | 18/06/2026 | Validação final com a comunidade | Todos | feito |
+| 11 | 18/06/2026 | **Entrega presencial** | Todos | feito |
+| 12 | 14/06/2026 | Preenchimento dos relatórios APC | Todos(individual) e Samuel(grupo) | feito |
 
 > Ajuste o cronograma conforme o calendário do semestre e os feriados.
 
